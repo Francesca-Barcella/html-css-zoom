@@ -32,7 +32,7 @@ img {
     width: 100vw;
     height: 80vh;
     padding: 60px 30px 15px;
-    display: flex;
+    position: relative;
 }
 
 .view_control {
@@ -50,6 +50,25 @@ img {
     width: 100vw;
     height: 20vh;
 }
+
+.partecipants{
+    border: 1px solid black;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 12* 7);
+    justify-content: space-between;
+
+}
+
 
 
 /* #endregion monitor */
