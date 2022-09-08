@@ -95,6 +95,7 @@ img {
     display: flex;
     padding: 5px;
     color: white;
+    text-align: center;
 }
 
 .col_sx i,
@@ -103,12 +104,20 @@ img {
     margin-right: 10px;
 }
 
-
-
 .col_center {
-    flex-grow: 2;
+    flex-grow: 6;
 }
 
+.mute, .video{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.col_dx{
+    background-color: #4A4A4A;
+    color: red;
+    text-align: center;
+}
 
 /* #endregion control_bar */
