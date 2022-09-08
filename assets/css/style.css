@@ -120,4 +120,15 @@ img {
     justify-content: center;
 }
 
+.col_center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.invite{
+    justify-content: center;
+}
+
+
 /* #endregion control_bar */
