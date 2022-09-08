@@ -1,10 +1,42 @@
-*{
+/* #region common */
+
+* {
     border: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img*{
+img {
     max-width: 100%;
     margin: auto;
 }
+
+/* #endregion common */
+
+/* #region utility */
+.debug {
+    border: 3px solid lightpink;
+    min-height: 50px;
+}
+
+/* #endregion utility */
+
+/* #region monitor */
+
+.monitor{
+    width: 100vw;
+    height: 100vh;
+}
+
+.monitor .partecipants{
+    width: 100%;
+    height: 80%;
+}
+
+.monitor .control_bar{
+    width: 100%;
+    height: 20%;
+}
+
+
+/* #endregion monitor */
