@@ -52,25 +52,26 @@ img {
     height: 20vh;
 }
 
-.partecipants{
+.partecipants {
     border: 1px solid black;
     width: 100%;
     height: 100%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.card img{
+.card img {
     height: 100px;
 }
 
-.card{
+.card {
     position: relative;
     margin-right: 5px;
     width: calc(100% / 7);
 }
 
-.name{
+.name {
     color: white;
     background-color: grey;
     padding: 5px;
@@ -80,6 +81,34 @@ img {
     font-size: 10px;
 }
 
-
-
 /* #endregion monitor */
+
+/* #region control_bar */
+.control_bar {
+    background-color: #222;
+    display: flex;
+}
+
+.col_sx,
+.col_dx {
+    flex-grow: 1;
+    display: flex;
+    padding: 5px;
+    color: white;
+}
+
+.col_sx i,
+.col_dx i {
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+.col_center {
+    flex-grow: 2;
+}
+
+
+
+/* #endregion control_bar */
