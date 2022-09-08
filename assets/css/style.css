@@ -70,12 +70,16 @@ main{
     width: 80vw;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
     width: 200px;
     height: 100px;
     margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-image: url(../img/sfondo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -84,8 +88,10 @@ main{
 
 .name{
     position: absolute;
-    bottom: 0.3rem;
-    left: 0.3rem;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    padding: 0.2rem;
 }
 
 /* #endregion main */
