@@ -72,6 +72,22 @@ main{
     display: flex;
 }
 
+.card{
+    width: 200px;
+    height: 100px;
+    margin-right: 5px;
+    background-image: url(../img/sfondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.3rem;
+}
+
 /* #endregion main */
 
 /* #region footer */
