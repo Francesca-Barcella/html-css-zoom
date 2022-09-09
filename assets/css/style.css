@@ -105,12 +105,18 @@ footer {
     display: flex;
 }
 
-.col_dx,
-.col_sx {
+.col_dx {
     flex-grow: 1;
     line-height: 10vh;
     text-align: center;
+    font-size: 0.8rem;
 }
+
+.col_sx {
+    flex-grow: 1;
+    display: flex;
+}
+
 
 .col_center {
     flex-grow: 5;
