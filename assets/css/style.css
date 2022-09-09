@@ -14,13 +14,10 @@ img {
     max-width: 100%;
     margin: auto;
 }
+
 /* #endregion common */
 
 /* #region utility */
-.debug {
-    border: 1px dashed white;
-}
-
 .pos_relative {
     position: relative;
 }
@@ -103,6 +100,7 @@ footer {
     height: 10vh;
     background-color: #222;
     display: flex;
+    font-size: 1rem;
 }
 
 .col_dx {
@@ -110,11 +108,16 @@ footer {
     line-height: 10vh;
     text-align: center;
     font-size: 0.8rem;
+    background-color: #4A4A4A;
+    color: rgba(228, 43, 43, 0.866);
 }
 
 .col_sx {
     flex-grow: 1;
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
 }
 
 
@@ -123,11 +126,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.col_dx{
-    background-color: #4A4A4A;
-    color: red;
 }
 
 ul {
@@ -139,14 +137,44 @@ li {
     margin: 0.5rem;
 }
 
-li div{
+li div {
     text-align: center;
 }
 
-li:hover{
+li:hover,
+.mute_control:hover,
+.view_control,
+.speaker_view,
+.zoom,
+footer span {
     cursor: pointer;
 }
 
+#share_screen {
+    color: green;
+}
 
+footer i {
+    font-size: 1.2rem;
+}
+
+.mute_control,
+.view_control {
+    width: 80px;
+    margin-right: 1.5rem;
+    justify-content: center;
+    align-content: right;
+}
+
+.microphone,
+.video {
+    margin-right: 1.5rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
 
 /* #endregion footer */
